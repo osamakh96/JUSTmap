@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:layout_weight="10"
+    tools:context="justmap.just.com.justmap.InstructorList_activity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_weight="1"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginRight="12dp"
+            android:layout_height="35dp">
+
+            <ImageView
+                android:layout_weight="1"
+                android:padding="7dp"
+                android:id="@+id/backIC"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_back_arrow_white" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:text="Instructors"
+                android:textSize="24sp"
+                android:layout_marginRight="26dp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:layout_weight="9" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/instructorsLV"
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+
+</LinearLayout>

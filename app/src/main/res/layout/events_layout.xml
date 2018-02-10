@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#65126e"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".Events">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_weight="1"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:weightSum="10"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginRight="12dp"
+            android:layout_height="35dp">
+
+            <ImageView
+                android:layout_weight="1"
+                android:padding="7dp"
+                android:id="@+id/backIC"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_back_arrow_white" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:text="Events"
+                android:textSize="24sp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:layout_weight="7.8" />
+
+            <ImageView
+                android:id="@+id/filterIC"
+                android:layout_weight="1.2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_add_white"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:background="#ffffff"
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:background="#75467b"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:padding="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/just_event_pic"
+                android:layout_weight="1.1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="2.9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:paddingTop="13dp"
+                    android:gravity="center_vertical"
+                    android:text="Books Exchanging"
+                    android:textSize="18sp"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+                <TextView
+                    android:textSize="14sp"
+                    android:text="19/Sep/2017"
+                    android:layout_gravity="top"
+                    android:textColor="#ffffff"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:background="#75467b"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:padding="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/event_pic_4"
+                android:layout_weight="1.1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="2.9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:paddingTop="13dp"
+                    android:gravity="center_vertical"
+                    android:text="New Semester"
+                    android:textSize="18sp"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+                <TextView
+                    android:textSize="14sp"
+                    android:text="19/Sep/2017"
+                    android:layout_gravity="top"
+                    android:textColor="#ffffff"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:background="#75467b"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:padding="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/event_pic_3"
+                android:layout_weight="1.1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="2.9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:paddingTop="13dp"
+                    android:gravity="center_vertical"
+                    android:text="Registration"
+                    android:textSize="18sp"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+                <TextView
+                    android:textSize="14sp"
+                    android:text="19/Sep/2017"
+                    android:layout_gravity="top"
+                    android:textColor="#ffffff"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:background="#75467b"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:padding="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/event_pic_3"
+                android:layout_weight="1.1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="2.9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:paddingTop="13dp"
+                    android:gravity="center_vertical"
+                    android:text="Conferences"
+                    android:textSize="18sp"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+                <TextView
+                    android:textSize="14sp"
+                    android:text="19/Sep/2017"
+                    android:layout_gravity="top"
+                    android:textColor="#ffffff"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:background="#75467b"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:padding="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/event_pic_4"
+                android:layout_weight="1.1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="2.9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:paddingTop="13dp"
+                    android:gravity="center_vertical"
+                    android:text="nursing Event"
+                    android:textSize="18sp"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+                <TextView
+                    android:textSize="14sp"
+                    android:text="19/Sep/2017"
+                    android:layout_gravity="top"
+                    android:textColor="#ffffff"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:background="#75467b"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:padding="10dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/event_pic_4"
+                android:layout_weight="1.1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:paddingLeft="10dp"
+                android:weightSum="2"
+                android:orientation="vertical"
+                android:layout_weight="2.9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:paddingTop="13dp"
+                    android:gravity="center_vertical"
+                    android:text="nursing Event"
+                    android:textSize="18sp"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+                <TextView
+                    android:textSize="14sp"
+                    android:text="19/Sep/2017"
+                    android:layout_gravity="top"
+                    android:textColor="#ffffff"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

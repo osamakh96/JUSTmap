@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tutorial_bg"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="justmap.just.com.justmap.Onboarding.Onboarding_activity">
+
+    <LinearLayout
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Space
+            android:layout_weight="7.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/skipBTN"
+            android:text="Skip"
+            android:background="#0000"
+            android:layout_weight="2.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+<android.support.v4.view.ViewPager
+    android:id="@+id/viewPager"
+    android:layout_weight="8"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+
+</android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:weightSum="10"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:visibility="invisible"
+            android:id="@+id/backBTN"
+            android:background="#0000"
+            android:text="Back"
+            android:layout_weight="2.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@+id/dotsLayout"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/nextBTN"
+            android:text="Next"
+            android:background="#0000"
+            android:layout_weight="2.5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</LinearLayout>

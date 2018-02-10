@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:weightSum="10"
+tools:context=".MapsActivity_Test"
+android:id="@+id/content_navigation">
+
+<LinearLayout
+    android:layout_weight="0.7"
+    android:background="#2E353F"
+    android:weightSum="10"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+
+    <ImageView
+        android:layout_marginLeft="7dp"
+        android:padding="5dp"
+        android:id="@+id/menuIC"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_menu"/>
+
+    <EditText
+        android:paddingRight="7dp"
+        android:drawableRight="@drawable/ic_search"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/search_bar"
+        android:layout_weight="9"
+        android:textColorHint="#DFDEE1"
+        android:layout_width="0dp"
+        android:paddingLeft="15dp"
+        android:hint="ex. Library"
+        android:textColor="#ffffff"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
+
+    <include
+        layout="@layout/activity_maps"
+        android:layout_weight="9.3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+</LinearLayout>

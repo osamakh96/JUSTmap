@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".Navigation"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:weightSum="10">
+
+    <ImageView
+        android:paddingTop="10dp"
+        android:layout_weight="4"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/ic_student"
+        android:contentDescription="Student Pic" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:id="@+id/nav_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Hamza alzoubi"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/nav_user_number"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textStyle="bold"
+        android:text="108021"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="JUSTmap"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:layout_weight="1.5"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Version 1.0"
+        android:textColor="#4584f1"/>
+
+</LinearLayout>
